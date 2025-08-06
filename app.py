@@ -16,7 +16,7 @@ from emotion_predictor import predict_emotion_from_audio
 import io
 
 load_dotenv()
-cohere_api_key = os.getenv("VYP2y97STe29Ihsa3hVOk39EFZ3NHWaXGN2F3j45")
+cohere_api_key = os.getenv("your_apikey")
 mongo_uri = os.getenv("MONGO_URI")
 
 app = Flask(__name__)
