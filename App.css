@@ -1,0 +1,53 @@
+body {
+  background-color: #fdfdfd;
+  font-family: 'Calibri', sans-serif;
+}
+
+.hero-section {
+  background-color: #f3f0f6;
+  padding: 5rem 0;
+}
+
+.custom-card {
+  background-color: #fff8fc;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-4px);
+}
+
+.footer-section {
+  background-color: #f0eef0;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-area {
+  flex: 1;
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.start-chat-placeholder {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.unauthenticated-view {
+  scroll-behavior: smooth;
+}
