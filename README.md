@@ -1,1 +1,2 @@
-# soultalk-chatbot
+# SoulTalk
+Emotion-Based Chat Assistant
